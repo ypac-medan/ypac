@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.navMenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navMenu ul {
+  margin-right: 5vw;
+}
+
+.navMenu a {
+  text-decoration: none;
+  padding-left: 2em;
+  font-size: 1.2em;
+  font-weight: 200;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #145410;
+}
+
+.navMenu img {
+  margin-left: 2em;
+  margin-top: 0.5vh;
+  height: 9vh;
+  width: auto;
+}
+
+.gmbrBesar img {
+  width: 100vw;
+  height: auto;
+  opacity: 0.4;
+}
+
+.gmbrTxt {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  margin: auto;
+  text-align: center;
+  opacity: 1;
+}
+
+.tentangKami {
+  padding: 5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tentangKami .kanan {
+  width: 50%;
+}
+
+.tentangKami img {
+  height: 20em;
+  padding-right: 1em;
+}
+
+.program {
+  padding: 5em;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.program .kiri {
+  width: 60%;
+}
+
+.program .kanan img {
+  width: 70%;
+  padding-left: 8em;
+}
+
+footer{
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+}
+.socials li{
+  height: 3em;
+  margin: 0 10px;
+}
+.socials a {
+  position: relative;
+  top:20%;
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 8px;
+  border-radius: 100%;
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  vertical-align: middle;
+  transition: color .4s ease;
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  padding: 30px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-menu {
+  float: right;
+}
+.footer-menu ul li{
+  padding-right: 10px;
+  display: inline;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: #27bcda;
+}
