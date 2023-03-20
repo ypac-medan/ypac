@@ -731,7 +731,7 @@ pre code {
   max-width: 25%;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 450px) {
   .col-3 {
     flex: 0 0 45%;
     max-width: 45%;
